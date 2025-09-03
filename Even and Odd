@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Main {                                    //public class main
+    public static void main(String[] args) {
+        int n,rem;
+        Scanner sc= new Scanner(System.in);
+        n=sc.nextInt();
+        rem=n%2;
+        if(rem==0)
+        {
+        System.out.print("\n Even no");
+        }
+        else
+        {
+            System.out.print("\n Odd no");
+        }
+    }
+}
